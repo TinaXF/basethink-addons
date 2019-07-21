@@ -611,7 +611,7 @@ EOD;
      */
     protected static function getServerUrl()
     {
-        return \think\facade\Config::get('pyadmin')['api_url'];
+        return \think\facade\Config::get('basethink')['api_url'];
     }
 
     /**
